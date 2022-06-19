@@ -1,0 +1,127 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.homebody{ 
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    font-family: 'Solway', serif;
+	background-image: url("cashpic3.jpg"); 
+}
+
+.fa-bars
+{
+	color:#fff;
+	font-size:30p !important;
+}
+/*---banner section--*/
+#main
+{
+	text-align: right;
+	background-color:  rgb(00,00,00);
+	color:#fff;
+	padding: initial;
+	padding-top:initial;	
+}
+
+
+
+/*---service section---*/
+
+#features1
+{
+	text-align: center;
+	font-size: 1.5rem;
+	color: rgb(129, 13, 13);
+	font-weight: bold;
+
+}
+
+ #features
+ {
+	 text-align: right;
+	 padding: 190px 160px;
+	 /* background: url("C:\Users\Admin\Pictures\tsfgrip\pexels-karolina-grabowska-4968384.jpg") no-repeat center center fixed; */
+	 background-image: url("cashpic3.jpg"); 
+	
+	 background-repeat:no-repeat;
+	 background-size: 100% 100%;
+	
+ }
+ .features1 h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+
+.features h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+.title::before
+{
+	content:'';
+	background:#4672ac;
+	height:5px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+.title::after
+{
+	content:'';
+	background:#16a2b4;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-bottom:40px;
+    display: block;
+	transform:translatey(8px);
+}
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:10px 25px;
+	border:none;
+	align-content: center;
+	background-image: url("cashpic3.jpg");
+}
+/* Action*/
+  #action{
+     
+    padding: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+    text-align: center;
+    line-height: 1;
+    color: black ;
+  }
+  .main{
+    font-size: 3rem;
+    line-height: 1;
+    padding: 10px 0px;
+  }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* footer */
+   #footer{
+	background-color: #242B2E;
+    color:#fff;
+	position:relative;
+    /*padding: 4% % */
+    text-align: center;
+}

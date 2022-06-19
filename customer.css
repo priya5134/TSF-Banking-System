@@ -1,0 +1,26 @@
+#main
+{
+    padding: 3% 10%;
+}
+
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    color: rgb(235, 180, 180)!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: rgb(194, 45, 231)!important;
+}
+    #footer{
+	background-color: #2b84aa;
+    color:#fff;
+    position: relative;
+    text-align: center;
+    
+}
+
+

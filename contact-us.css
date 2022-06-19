@@ -1,0 +1,38 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(37, 36, 36);
+    color: rgb(22, 16, 16);
+    text-align: center;
+    display: block;
+ }
+ * {
+   box-sizing: border-box;
+ }
+ 
+ /* Create two equal columns that floats next to each other */
+ .column {
+   float: left;
+   width: 50%;
+   padding: 10px;
+   height: 300px; /* Should be removed. Only for demonstration */
+ }
+ 
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ #frm{
+     padding-top: 70px;
+     padding-left: 20px;
+     color:rgb(0, 0, 0);
+ }
+ body{
+     background-color:rgb(233, 198, 198)  
+     
+     
+ }
